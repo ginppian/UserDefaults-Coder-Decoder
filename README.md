@@ -1,6 +1,10 @@
 UserDefaults Guardar Objetos con el Protocolo NSCoder
 ===
 
+<p align="center">
+	<img src="imgs/img1.png" width="720px" height="450px">
+</p>
+
 ## Descripción
 
 Podemos guardar variables de diferentes tipos de datos primitivos como: Enteros, Flotantes, Strings, Bools pero si queremos guardar todo un objeto de una clase o incluso un arraeglo de objetos tendriamos que convertir el objeto a un binario (NSData) y después guardarlo en un archivo, el problema de esto para la *Clase* es saber cono serealizar las variables, como solución a esto Apple nos presentar el protocolo *NSCoding* que contiene dos métodos: 
@@ -90,10 +94,6 @@ class ViewController: UIViewController {
 
 }
 ```
-
-<p align="center">
-	<img src="imgs/img1.png" width="720px" height="450px">
-</p>
 
 ## Fuente
 
